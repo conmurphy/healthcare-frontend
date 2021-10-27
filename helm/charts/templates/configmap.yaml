@@ -21,4 +21,4 @@ data:
               host: 'appd-infraviz.appdynamics',
               port: 9090,
             SSL: false }});
-        require("./calendar.js")
+        require("./{{.Values.configmap.service_name}}.js")
