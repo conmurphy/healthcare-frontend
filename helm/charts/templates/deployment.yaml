@@ -13,7 +13,7 @@ spec:
       labels:
         app: {{.Values.deployment.application_name}}
         version: {{.Values.deployment.image_tag}}
-    spec:
+    spec: 
       securityContext:
       #  allowPrivilegeEscalation: false
       #  runAsNonRoot: true
