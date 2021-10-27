@@ -24,7 +24,7 @@ spec:
           # securityContext:
           #     capabilities:
           #         add: ["NET_ADMIN","NET_RAW"]
-          env:
+          env: 
             - name: CALENDAR_SERVICE
               value: "healthcare-calendar.healthcare-calendar.svc.cluster.local"
             - name: CALENDAR_PORT
