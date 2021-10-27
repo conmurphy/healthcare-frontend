@@ -7,3 +7,4 @@ data:
   shim.js: |-
         require("./{{.Values.configmap.service_name}}.js")
 
+
