@@ -26,5 +26,5 @@ EXPOSE 5000/tcp
 # Run it
 #CMD [ "node -r 'global-agent/bootstrap'", "shim.js"]
 #CMD [ "node", "shim.js"]
-ENTRYPOINT ["/bin/sh", "-c" , "node -r 'global-agent/bootstrap' shim.js"] 
+ENTRYPOINT ["/bin/sh", "-c" , "node -r 'global-agent/bootstrap' frontend.js"] 
 
