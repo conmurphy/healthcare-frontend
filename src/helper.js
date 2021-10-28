@@ -1,4 +1,4 @@
-const appd = require('appdynamics');
+
 const { json } = require('body-parser');
 //const Appointment = require('./module/appointment.model.js');
 //const appointment = require('./module/appointment.model.js');
