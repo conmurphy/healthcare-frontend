@@ -33,7 +33,7 @@ spec:
             - name: REDIS_ACCESS_KEY
               value: {{.Values.deployment.redis_access_key}}
             - name: PREDICTOR_SERVICE
-              value: "predictor"
+              value: "healthcare-predictor.healthcare-predictor.svc.cluster.local"
             - name: PREDICTOR_PORT
               value: "5001"
             - name: REFUND_SERVICE
